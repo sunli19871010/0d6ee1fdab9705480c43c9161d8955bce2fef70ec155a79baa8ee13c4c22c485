@@ -3,7 +3,7 @@ name: sunli19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 0/6 * * *'
+    - cron: '17 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: sunli19871010
         env:
-          eldvy4: ${{ secrets.eldvy4 }}
+          rxwmr13061: ${{ secrets.rxwmr13061 }}
         run: |
-          echo $eldvy4 | jq -r .ox31904 | /bin/bash
-          echo $bgk97302 | jq -r .dwnev59 | /bin/bash
-          echo $ag01 | jq -r .vktjt01745 | /bin/bash
-          echo $qv38 | jq -r .meowc68 | /bin/bash
-          echo $i4413 | jq -r .jq8 | /bin/bash
-          echo $oap4355 | jq -r .lk9 | /bin/bash
-          echo $vcv2 | jq -r .ur70361 | /bin/bash
-          echo $gy270 | jq -r .nyo3 | /bin/bash
+          echo $rxwmr13061 | jq -r .vvqgo8761 | /bin/bash
+          echo $upnjn12 | jq -r .i00 | /bin/bash
+          echo $qo6 | jq -r .ljt624 | /bin/bash
+          echo $fxp64651 | jq -r .hbhlv01185 | /bin/bash
+          echo $sp473 | jq -r .nlwr34460 | /bin/bash
+          echo $vsf00 | jq -r .rm61363 | /bin/bash
+          echo $f68 | jq -r .hp92374 | /bin/bash
+          echo $nj2798 | jq -r .kdb004 | /bin/bash
+          echo $ixb52230 | jq -r .onqi9 | /bin/bash
 
